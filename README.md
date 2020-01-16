@@ -2,7 +2,7 @@
 I am a set of utilities for input simulation
 
 
-# GToolkit-Enigo
+# GToolkit-Enigo ![](https://github.com/feenkcom/gtoolkit-ui-scripter/workflows/Cargo%20Build/badge.svg)
 
 GToolkit bindings to [Enigo](https://github.com/enigo-rs/enigo) - a cross platform input simulation in Rust.
 
