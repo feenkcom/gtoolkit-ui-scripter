@@ -27,6 +27,9 @@ jobs:
                       extension: .dll
                       platform: windows
         steps:
+            - name: Install dependencies (Linux)
+              if: matrix.variant.os == 'ubuntu-latest'
+              run: sudo apt-get install libxdo-dev
             - uses: actions/checkout@master
             - name: Install latest stable
               uses: actions-rs/toolchain@v1
