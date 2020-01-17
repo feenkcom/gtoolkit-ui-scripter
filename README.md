@@ -12,7 +12,7 @@ GToolkit bindings to [Enigo](https://github.com/enigo-rs/enigo) - a cross platfo
 EpMonitor current disable.
 [ 
   Metacello new
-    baseline: 'Enigo';
+    baseline: 'GToolkitEnigo';
     repository: 'github://feenkcom/gtoolkit-ui-scripter/src';
     load
 ] ensure: [ EpMonitor current enable ].  
